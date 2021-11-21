@@ -4,3 +4,4 @@ black
 pytest-cov
 ipython
 pytest-cov
+click
