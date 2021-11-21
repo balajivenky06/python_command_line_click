@@ -9,7 +9,7 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C mathcode.py
+	pylint --disable=R,C mylib/mathcode.py
 	#lint Dockerfile
 	#docker run --rm -i hadolint/hadolint < Dockerfile
 
